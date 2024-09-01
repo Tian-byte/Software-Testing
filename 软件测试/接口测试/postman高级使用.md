@@ -24,7 +24,7 @@
   //   pm.response.to.have.status(200);  postman中响应状态码 必须有200
   ```
 
-  <img src="E:\软件测试\接口测试\img\image-20240831090232003.png" alt="image-20240831090232003" style="zoom:25%;" /> 说明断言通过
+  <img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831090232003.png" alt="image-20240831090232003" style="zoom:25%;" /> 说明断言通过
 
   
 
@@ -46,7 +46,7 @@ pm.test("Body matches string", function () {
 
 
 
-<img src="E:\软件测试\接口测试\img\image-20240831091207490.png" alt="image-20240831091207490" style="zoom:25%;" />
+<img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831091207490.png" alt="image-20240831091207490" style="zoom:25%;" />
 
 - 断言Json 数据
 
@@ -84,7 +84,7 @@ pm.test("Your test name", function () {
 
 ### 实现步骤
 
-<img src="E:\软件测试\接口测试\img\image-20240831093334374.png" alt="image-20240831093334374" style="zoom:50%;" />  
+<img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831093334374.png" alt="image-20240831093334374" style="zoom:50%;" />  
 
 假设： 接口B 产生数据 被接口 A 依赖
 
@@ -123,7 +123,7 @@ var value = pm.enveronment.get("var_name");
 
 ### 案例
 
-<img src="E:\软件测试\接口测试\img\image-20240831094852059.png" alt="image-20240831094852059" style="zoom:50%;" />
+<img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831094852059.png" alt="image-20240831094852059" style="zoom:50%;" />
 
 1. 使用 postman 关联，实现下面案例 从获取天气接口，http://www.weather.com.cn/data/sk/101010100.html
 
@@ -137,7 +137,7 @@ var value = pm.enveronment.get("var_name");
 2. 从响应结果中，拿到城市名，存入 全局变量 
 3. 百度搜索接口从 全局变量中，取城市名，发送搜索请求。
 
-<img src="E:\软件测试\接口测试\img\image-20240831100203094.png" alt="image-20240831100203094" style="zoom: 25%;" /> <img src="E:\软件测试\接口测试\img\image-20240831100558551.png" alt="image-20240831100558551" style="zoom:25%;" />
+<img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831100203094.png" alt="image-20240831100203094" style="zoom: 25%;" /> <img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831100558551.png" alt="image-20240831100558551" style="zoom:25%;" />
 
 使用 postman 关联技术，实现 添加员工 接口。 
 
@@ -152,7 +152,7 @@ var value = pm.enveronment.get("var_name");
 4.   添加员工 接口，从 环境变量 中，提取 令牌。设置到请求头中，作为 Authorization 的 值。
 5.  填写 添加员工 接口 其他信息（post、URL、请求体），发送请求
 
-<img src="E:\软件测试\接口测试\img\image-20240831112128370.png" alt="image-20240831112128370" style="zoom:50%;" />
+<img src="E:\Software-Testing\软件测试\接口测试\img\image-20240831112128370.png" alt="image-20240831112128370" style="zoom:50%;" />
 
 
 
@@ -200,4 +200,40 @@ json 文件
 根据 使用位置不同，有两种方法
 
 - 请求参数（请求行，请求头，请求体）中，使用 数据文件的数据
+  - csv文件：{{字段名}}；  json文件：{{键名}}
+
 - 代码：代码（tests)中，使用 数据文件的数据
+  - 使用postman 内置的 关键字data 索引， 字段名 或键名
+  - csv文件： data.字段名； json文件：data.键名
+
+# 测试报告的生成
+
+通过newman 生成测试报告
+
+1. 安装node.js
+2. 安装 newman   
+
+### 导出环境文件
+
+​	如果 测试用例脚本中，包含环境 必须到处环境文件
+
+### newman 生成测试报告
+
+run xxx.json 执行测试集文件
+
+-e source: 环境变量文件
+
+-d source: 测试数据文件
+
+-r htmlextra: 生成测试报告内容
+
+--reporter-htmlextra-export source: 存放报告路
+
+
+
+```shell
+# 完整命令
+newman run 用例集文件.json  -e 环境文件.json/.csv -r htmlextra 
+--reporter-htmlextra-export 测试报告名.html
+```
+
