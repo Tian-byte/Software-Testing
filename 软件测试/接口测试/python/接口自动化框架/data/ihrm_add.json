@@ -1,0 +1,40 @@
+[
+  {
+    "des": "必选参数",
+    "json_data": {
+      "username": "业务猪001",
+      "mobile": 13900043762,
+      "workNumber": "9527"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "des": "组合参数",
+    "json_data": {
+      "username": "业务猪001",
+      "mobile": 13900043762,
+      "workNumber": "9527",
+      "formOfEmployment": "2"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "des": "全部参数",
+    "json_data": {
+      "username": "大猪乔治",
+      "mobile": 13900043762,
+      "workNumber": "9527",
+      "formOfEmployment": "1"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }
+]

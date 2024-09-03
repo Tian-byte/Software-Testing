@@ -14,7 +14,7 @@ from common.read_json_util import read_json_data
 4. 修改通用测试方法的形参 与json 数据中的 key 一致
 5. 在 通用测试方法内 使用形参
 """
-class TestIhrmLogin(unittest.TestCase):
+class TestIhrmLoginParams(unittest.TestCase):
     @parameterized.expand(read_json_data())
     def test_login(self,desc,req_data,status_code,success,code,message):
         # 组织请求体数据

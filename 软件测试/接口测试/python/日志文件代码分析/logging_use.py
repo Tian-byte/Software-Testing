@@ -48,6 +48,6 @@ def init_log_config(filename, when='midnight', interval=1, backup_count=7):
 
 if __name__ == '__main__':
     # 初始化日志
-    init_log_config('a.log')
+    init_log_config('b.log')
     # 打印输出日志信息
     logging.debug('我是一个调试级别的日志')

@@ -466,12 +466,12 @@ a.popup_link:hover {
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
+    <a class="popup_link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
         %(status)s</a>
 
     <div id='div_%(tid)s' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_%(tid)s').style.display = 'none' " >
+        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_%(tid)s').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
@@ -628,7 +628,7 @@ class HTMLTestRunner(Template_mixin):
         test(result)
         self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
-        print(sys.stderr, '\nTimeElapsed: %s' % (self.stopTime-self.startTime))
+        print(sys.stderr, 'Time Elapsed: %s' % (self.stopTime-self.startTime))
         return result
 
 
@@ -763,7 +763,7 @@ class HTMLTestRunner(Template_mixin):
         if isinstance(o,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # uo = unicode(o.encode('string_escape'))
-            uo = o
+            uo = e
         else:
             uo = o
         if isinstance(e,str):
@@ -822,3 +822,4 @@ main = TestProgram
 
 if __name__ == "__main__":
     main(module=None)
+

@@ -1,0 +1,33 @@
+[
+  {
+    "desc": "登录成功",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": "888itcast.CN764%..."
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 100000,
+    "message": "操作成功！"
+  },{
+    "desc": "用户名或密码错误",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": "888itcast.CN764%..."
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误！"
+  },{
+    "desc": "用户名或密码错误",
+    "login_data": {
+      "mobile": null,
+      "password": "888itcast.CN764%..."
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误！"
+  }
+]

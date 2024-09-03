@@ -9,7 +9,7 @@ class DBUtil(object):
     def __get_conn(cls):
         # 判断conn 是否为空 如果是在创建
         if cls.conn is None:
-            cls.conn = pymysql.connect(host="localhost",port=3306,user="root",password="tian",database="wms",charset="utf8")
+            cls.conn = pymysql.connect(host="localhost",port=3306,user="root",password="tian",database="ihrm",charset="utf8")
             #返回非空连接
         return cls.conn
 
