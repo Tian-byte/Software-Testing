@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0bfd06-063f-4af2-ac63-d3bb87c0b51d" name="更改" comment="tian">
-      <change afterPath="$PROJECT_DIR$/../接口自动化框架/common/get_header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../接口自动化框架/全量字段的校验/全量字段校验.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/common/read_json_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/common/read_json_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/run_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_add_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_add_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_login_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_login_params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/scripts/test_ihrm_query.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化框架/普通方法实现的员工管理.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../日志收集及全量字段校验.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../日志收集及全量字段校验.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

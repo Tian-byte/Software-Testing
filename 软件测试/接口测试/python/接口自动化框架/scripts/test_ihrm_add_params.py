@@ -14,7 +14,7 @@ class TestEmpAddParams(unittest.TestCase):
     header = None
     @classmethod
     def setUpClass(cls) -> None:
-        cls.header =  get_header()
+        cls.header = get_header()
     # 必选参数
     def setUp(self) -> None:
         delete_sql = f"delete from bs_user where mobile = '{Tel}' "

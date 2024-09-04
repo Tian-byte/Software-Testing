@@ -1,0 +1,32 @@
+2024-09-04 15:02:54,965 INFO [run_suite.py(<module>:26)] - 测试套件实例，创建成功!
+2024-09-04 15:02:54,968 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:55,524 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:02:55,526 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:55,862 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:02:55,863 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:56,234 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:02:56,235 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:56,603 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:02:56,610 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:56,961 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:02:57,002 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:57,319 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:02:57,325 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:02:57,622 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:02:57,626 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功
+2024-09-04 15:03:30,908 INFO [run_suite.py(<module>:26)] - 测试套件实例，创建成功!
+2024-09-04 15:03:30,910 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:31,425 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:03:31,427 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:31,722 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:03:31,724 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:32,010 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:03:32,011 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:32,389 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 15:03:32,393 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:32,688 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:03:32,694 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:32,996 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:03:33,001 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 15:03:33,295 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 15:03:33,299 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功

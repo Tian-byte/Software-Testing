@@ -16,7 +16,7 @@ from config import BASE_DIR
 5. 在 通用测试方法内 使用形参
 """
 class TestIhrmLoginParams(unittest.TestCase):
-    path_filename = BASE_DIR + "/data/ihrm_login.json"
+    path_filename =  BASE_DIR + "/data/ihrm_login.json"
     @parameterized.expand(read_json_data(path_filename))
     def test_login(self,desc,req_data,status_code,success,code,message):
         # 组织请求体数据
