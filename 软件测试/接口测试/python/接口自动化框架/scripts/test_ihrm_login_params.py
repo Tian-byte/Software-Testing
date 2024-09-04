@@ -6,6 +6,7 @@ from parameterized import parameterized
 from api.ihrm_login_api import IhrmLoginApi
 from common.assert_util import assert_util
 from common.read_json_util import read_json_data
+from config import BASE_DIR
 
 """
 1. 导包 from parameterized import parameterized
@@ -15,7 +16,8 @@ from common.read_json_util import read_json_data
 5. 在 通用测试方法内 使用形参
 """
 class TestIhrmLoginParams(unittest.TestCase):
-    @parameterized.expand(read_json_data())
+    path_filename = BASE_DIR + "/data/ihrm_login.json"
+    @parameterized.expand(read_json_data(path_filename))
     def test_login(self,desc,req_data,status_code,success,code,message):
         # 组织请求体数据
         json_data = req_data

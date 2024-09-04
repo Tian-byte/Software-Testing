@@ -2,8 +2,9 @@
 import json
 
 
-def read_json_data():
-    with open("../data/add_emp.json", "r", encoding="utf-8") as f:
+def read_json_data(path_filename):
+    # with open("../data/add_emp.json", "r", encoding="utf-8") as f:
+    with open(path_filename, "r", encoding="utf-8") as f:
         json_data = json.load(f)
         list_data = []
         for item in json_data:
