@@ -10,7 +10,7 @@ class TestIhrmLogin(unittest.TestCase):
     # 登录成功
     def test01_login_success(self):
         # 组织请求体数据
-        json_data = {"mobile":"13800000002","password":"888itcast.CN764%.."}
+        json_data = {"mobile":"13800000002","password":"888itcast.CN764%..."}
         resp =  IhrmLoginApi.login(json_data)
         print("登陆成功",resp.json())
         # 断言
