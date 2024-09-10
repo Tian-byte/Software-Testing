@@ -30,3 +30,51 @@
 2024-09-04 15:03:33,001 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
 2024-09-04 15:03:33,295 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
 2024-09-04 15:03:33,299 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功
+2024-09-04 20:36:09,229 INFO [run_suite.py(<module>:26)] - 测试套件实例，创建成功!
+2024-09-04 20:36:09,229 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:09,716 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:36:09,716 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:10,030 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:36:10,030 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:10,328 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:36:10,328 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:10,643 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:36:10,660 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:10,942 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:36:10,961 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:11,239 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:36:11,239 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:36:11,554 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:36:11,554 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功
+2024-09-04 20:38:31,291 INFO [run_suite.py(<module>:26)] - 测试套件实例，创建成功!
+2024-09-04 20:38:31,307 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:31,747 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:31,747 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:32,062 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:32,062 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:32,376 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:32,376 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:32,659 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:32,659 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:32,958 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:32,989 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:33,272 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:33,287 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:33,586 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:33,602 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功
+2024-09-04 20:38:55,699 INFO [run_suite.py(<module>:26)] - 测试套件实例，创建成功!
+2024-09-04 20:38:55,699 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:56,138 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:56,138 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:56,452 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:56,452 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:56,782 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:56,782 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:57,096 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/login HTTP/11" 200 None
+2024-09-04 20:38:57,096 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:57,394 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:57,394 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:57,708 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:57,708 DEBUG [connectionpool.py(_new_conn:1051)] - Starting new HTTPS connection (1): ihrm-java.itheima.net:443
+2024-09-04 20:38:58,006 DEBUG [connectionpool.py(_make_request:546)] - https://ihrm-java.itheima.net:443 "POST /api/sys/user HTTP/11" 401 None
+2024-09-04 20:38:58,022 INFO [run_suite.py(<module>:33)] - ihrm.html 测试报告生成成功
