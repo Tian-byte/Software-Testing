@@ -15,6 +15,7 @@ class TestEmpQuery(unittest.TestCase):
 
     def setUp(self) -> None:
         insert_sql = "insert into bs_user(id,mobile,username) values('11232456452635',15691075769,'张三')"
+
         DBUtil.uid_db(insert_sql)
 
     def tearDown(self) -> None:
