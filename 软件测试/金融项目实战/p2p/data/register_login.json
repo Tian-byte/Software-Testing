@@ -1,0 +1,101 @@
+{
+  "img_code": [
+    {
+      "desc": "获取图片成功（随机小数）",
+      "random": 0.123,
+      "export_code": 200
+    },   {
+      "desc": "获取图片成功（整数）",
+      "random": 123,
+      "export_code": 200
+    },   {
+      "desc": "获取图片失败（空）",
+      "random": "",
+      "export_code": 404
+    },   {
+      "desc": "获取图片失败（字符串）",
+      "random": "123hello",
+      "export_code": 400
+    }
+  ],
+  "phone_code": [
+    {
+      "desc": "获取短信验证码成功",
+      "phone": "17598774114",
+      "imgVerifyCode": 8888,
+      "export_test": "发送成功"
+    },
+     {
+      "desc": "获取短信验证码成功",
+      "phone": "18998774114",
+      "imgVerifyCode": 8889,
+      "export_text": "验证码错误"
+    }
+  ],
+  "register": [
+    {
+      "desc": "注册成功（必填参数）",
+      "phone": 17598774114,
+      "password": "test123",
+      "verifycode": 8888,
+      "phone_code": 666666,
+      "expect_text": "注册成功"
+    },
+     {
+      "desc": "注册失败（图片验证码错误）",
+      "phone": "18998774112",
+      "password": "test123",
+      "verifycode": "8889",
+      "phone_code": "666666",
+      "expect_text": "验证码错误"
+    },
+     {
+      "desc": "注册失败（短信验证码错误)",
+      "phone": "15971864812",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666555",
+      "expect_text": "验证码错误"
+    },
+     {
+      "desc":"注册失败（手机号已存在)",
+      "phone": "18998774114",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "expect_text": "手机已存在"
+    }
+  ],
+  "login": [
+    {
+      "desc": "登录成功",
+      "keywords": "18998774114",
+      "password": "test123",
+      "expect_text": "登录成功"
+    },
+     {
+      "desc": "登录失败",
+      "keywords": "18998774114",
+      "password": "",
+      "expect_text": "不能为空"
+    },
+     {
+      "desc": "登录失败（解锁）",
+      "keywords": "18998774114",
+      "password": "error123",
+      "expect_text": "登录成功"
+    }
+  ],
+  "login_status": [
+    {
+      "desc": "查询登录状态（已登录）",
+      "status": "已登录",
+      "expect_text": "OK"
+    },
+    {
+      "desc": "查询登录状态（未登录）",
+      "status": "未登录",
+      "expect_text": "未登"
+    }
+  ]
+}
