@@ -1,5 +1,4 @@
 from time import sleep
-
 from appium import webdriver
 
 from appium.webdriver.common.mobileby import By
